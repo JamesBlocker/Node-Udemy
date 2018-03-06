@@ -18,3 +18,8 @@ greetMe();
 
 //first class use
 logGreeting(greetMe);
+
+// function expression
+logGreeting(function() {
+    console.log("What up!");
+})
